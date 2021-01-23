@@ -1,0 +1,283 @@
+.wrap {
+  margin: 0 auto;
+}
+
+.info_wrap {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 2px 5px #555;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  height: auto;
+  width: 150px;
+}
+
+.userAvatar {
+  height: auto;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+p,
+h2,
+h3 {
+  margin: 0 0 5px 0;
+}
+
+.bio {
+  font-size: 14px;
+}
+
+.contactslLink {
+  font-size: 14px;
+  text-decoration: none;
+  color: DarkSlateBlue;
+  margin: 0;
+}
+
+.contactslLink:hover {
+  cursor: pointer;
+}
+
+.socialNetwork {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vk {
+  width: 26px;
+  height: 26px;
+  background-color: DarkSlateBlue;
+  mask-image: url('./../Img/vk.svg');
+}
+
+.mediaLink .gh {
+  margin: 0 6px;
+}
+
+.repo_wrap {
+  box-shadow: 0 2px 5px #555;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 350px;
+  padding: 20px;
+}
+
+.repolist {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 450px;
+  padding: 0;
+  margin: 0;
+}
+
+.list_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.repo_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.repo_link {
+  text-decoration: none;
+  color: DarkSlateBlue;
+  margin-bottom: 10px;
+}
+
+.list_item:hover {
+  box-shadow: 4px 4px 8px -5px rgba(104, 111, 106, .1);
+  background: #ccc;
+}
+
+.language {
+  position: relative;
+  min-width: 80px;
+  padding-left: 15px;
+}
+
+.html,
+.css,
+.js {
+  font-size: 14px;
+  color: #555;
+}
+
+.html::before,
+.css::before,
+.js::before,
+.no_lang::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.html::before {
+  background: #e34c26;
+}
+
+.css::before {
+  background: #563d7c;
+}
+
+.js::before {
+  background: #ffdc5a;
+}
+
+.star,
+.fork {
+  color: #555;
+  font-size: 14px;
+}
+
+.star {
+  margin-left: 5px;
+}
+
+.star::before {
+  content: url('./../Img/Star.svg');
+}
+
+.fork::before {
+  content: url('./../Img/fork.svg');
+}
+
+.date {
+  color: #555;
+  font-size: 14px;
+}
+
+.buttonWrap {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.button {
+  cursor: pointer;
+  color: DarkSlateBlue;
+  border: 2px solid DarkSlateBlue;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+  transition: all .5s ease-in-out;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: DarkSlateBlue;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: .5;
+}
+
+@media screen and (max-width: 370px) {
+  .info_wrap {
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .avatar {
+    width: 120px;
+  }
+
+  .userAvatar {
+    width: 120px;
+  }
+
+  .userInfo {
+    padding: 0 10px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .bio {
+    font-size: 10px;
+  }
+
+  .contactslLink {
+    font-size: 12px;
+  }
+
+  p,
+  h2 {
+    margin: 0;
+  }
+
+  .repo_wrap {
+    padding: 10px;
+  }
+
+  .repolist {
+    width: 300px;
+  }
+
+  .button {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  .info_wrap {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .userInfo {
+    padding: 0 10px;
+  }
+
+  .repo_wrap {
+    padding: 10px;
+  }
+
+  .repolist {
+    width: 350px;
+  }
+
+  .button {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}

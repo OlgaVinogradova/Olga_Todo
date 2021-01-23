@@ -1,0 +1,48 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+input {
+  margin-right: 5px;
+  transform: translateY(1px);
+}
+
+label {
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.active {
+  opacity: .7;
+  text-decoration: line-through;
+  color: DarkSlateBlue;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+}
+
+.edit {
+  padding: 0 10px 0 0;
+}
+
+.btn_done {
+  display: none;
+}
+
+.del:hover,
+.edit:hover,
+.save:hover {
+  color: DarkSlateBlue;
+}

@@ -1,0 +1,50 @@
+.wrap {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  font: 400 16px;
+  transition: all .5s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.button_active {
+  background: DarkSlateBlue;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.count {
+  padding-left: 5px;
+  color: DarkSlateBlue;
+  margin: 0;
+}
+
+.button_active .count {
+  color: #fff;
+}
+
+.button:hover,
+.button:focus {
+  background: DarkSlateBlue;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: .6;
+}
+
+.button:hover .count {
+  color: #fff;
+}
