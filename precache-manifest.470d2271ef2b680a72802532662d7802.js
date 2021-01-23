@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "877a4d8a6723a6a55580a920f5f42bb0",
+    "revision": "2bd5dd0256898671bcb34f5a392c45e5",
     "url": "/Olga_Todo/index.html"
   },
   {
-    "revision": "df4f7be73466fbab4adb",
-    "url": "/Olga_Todo/static/css/main.d42ceab3.chunk.css"
+    "revision": "9426c4b4cb6ba797af25",
+    "url": "/Olga_Todo/static/css/main.631484bb.chunk.css"
   },
   {
     "revision": "b4b18104c1b8ff8d86bb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Olga_Todo/static/js/2.5b75bf88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df4f7be73466fbab4adb",
-    "url": "/Olga_Todo/static/js/main.90bc5715.chunk.js"
+    "revision": "9426c4b4cb6ba797af25",
+    "url": "/Olga_Todo/static/js/main.fdc84d90.chunk.js"
   },
   {
     "revision": "4f7abf1435cb9cb4212b",

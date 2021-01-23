@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Olga_Todo/static/css/main.d42ceab3.chunk.css",
-    "main.js": "/Olga_Todo/static/js/main.90bc5715.chunk.js",
-    "main.js.map": "/Olga_Todo/static/js/main.90bc5715.chunk.js.map",
+    "main.css": "/Olga_Todo/static/css/main.631484bb.chunk.css",
+    "main.js": "/Olga_Todo/static/js/main.fdc84d90.chunk.js",
+    "main.js.map": "/Olga_Todo/static/js/main.fdc84d90.chunk.js.map",
     "runtime-main.js": "/Olga_Todo/static/js/runtime-main.6d48f684.js",
     "runtime-main.js.map": "/Olga_Todo/static/js/runtime-main.6d48f684.js.map",
     "static/js/2.5b75bf88.chunk.js": "/Olga_Todo/static/js/2.5b75bf88.chunk.js",
     "static/js/2.5b75bf88.chunk.js.map": "/Olga_Todo/static/js/2.5b75bf88.chunk.js.map",
     "index.html": "/Olga_Todo/index.html",
-    "precache-manifest.1e21f7f585ca499f1cd77d98cc427fd2.js": "/Olga_Todo/precache-manifest.1e21f7f585ca499f1cd77d98cc427fd2.js",
+    "precache-manifest.470d2271ef2b680a72802532662d7802.js": "/Olga_Todo/precache-manifest.470d2271ef2b680a72802532662d7802.js",
     "service-worker.js": "/Olga_Todo/service-worker.js",
-    "static/css/main.d42ceab3.chunk.css.map": "/Olga_Todo/static/css/main.d42ceab3.chunk.css.map",
+    "static/css/main.631484bb.chunk.css.map": "/Olga_Todo/static/css/main.631484bb.chunk.css.map",
     "static/js/2.5b75bf88.chunk.js.LICENSE.txt": "/Olga_Todo/static/js/2.5b75bf88.chunk.js.LICENSE.txt",
     "static/media/About.module.css": "/Olga_Todo/static/media/vk.4bf03c4a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6d48f684.js",
     "static/js/2.5b75bf88.chunk.js",
-    "static/css/main.d42ceab3.chunk.css",
-    "static/js/main.90bc5715.chunk.js"
+    "static/css/main.631484bb.chunk.css",
+    "static/js/main.fdc84d90.chunk.js"
   ]
 }
